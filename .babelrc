@@ -1,0 +1,28 @@
+
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current" // 10
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": ["@babel/plugin-proposal-class-properties"
+
+  ],
+  "ignore": [".css",".scss"]
+  
+}
+
+
+/*
+
+{
+   
+    "presets": ["@babel/env", "@babel/react"]
+}
+*/
